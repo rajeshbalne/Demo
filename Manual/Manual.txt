@@ -1,0 +1,118 @@
+QA(quality assurance) : is a way of preventing defects in manufactured products and avoiding problems
+when delivering services to customers
+
+tester roles :
+
+functional tester : to test the functionality of an application so that it meets business requirements
+automation tester : write the code and make machine to work
+performance tester : to test the load of application. No of users accessing app at same time
+mobile tester : to test app in mobile how it is behaving in diff platforms ex: e commerce,banking app's
+security/pen testing : authentication,hacking,identify security flaws
+Test Architect : high level position in QA.dev a framework to write automation scripting,has to set
+road map,take care of all testing activities
+
+All testers work for quality of the product
+
+diff stages of testing :
+test planning,analysis and design,implementation and execution,evaluating exit criteria and reporting,
+test closure activities
+
+test planning :
+define scope of testing,determine test approach,define test strategy,determine test resources,exit criteria
+
+analysis and design :
+analysis business requirements,design test scenarios,create test data,design test cases based on
+test scenarios,test environment setup
+
+Implementation and execution :
+execute test cases in given timeline,prioritize test cases,write automation scripts if necessary,
+defect loging and tracking,test case status reporting
+
+evaluating exit criteria and reporting :
+to check the test status against exit criteria specified in test planning
+to assess if more test are need or exit criteria should be changed
+to write test summary report for stakeholders
+
+test case template :
+business req id,test case id,tc description,pre requisite,test data,test steps,expected,actual,status(pass/fail)
+
+
+defect life cycle :
+new : qa raised the defect
+open : test manager changes the status/ developer goes through and checks valid or not
+assigned : assign to particular developer will work on it
+fixed : dev fixes the defect
+retest : checks whether the defect is fixed or not
+closed : if defect is fixed
+reopen:if raised defect is not fixed
+reject : if dev thinks the defect raised is not valid
+deferred : postponed to next release
+
+defect template :
+defect ID : unique id for every defect
+description : password reset happening after clicking cancel
+steps to reproduce : all steps to produce the defect
+test data : data to raise the defect
+expected result : pswd reset should not happen
+actual result : pswd reset is happening
+screenshot : 
+timestamp : at what time we got the defect
+assigned to : test manager/developer
+severity :impact of defect in the application( low, medium , high)
+priority : the order of the defect to be fixed
+------------------------------------------------------------------------
+functional requirement : any part of the app
+non-func req : no of users access at a time(performance,load,stress,security)
+
+smoke testing : performed after softwaree build(bug fixed) to check the critical funt of the application is 
+working fine
+performed before actual testing
+
+sanity testing : performed when the bugs have been fixed and no further issues are introduced becoz of
+those fixed bugs
+only for one module
+
+sanity is same as regression testing(but done for whole application)
+
+load testing : testing the app at diff load. no of users accessing the app at same time
+stress testing : testing till the app breaks at a certain point
+---------------------------------------------------------------------
+testing methodologies :
+water fall,iterative and agile
+
+water fall : after complete developing is done then it comes to testing
+
+iterative : project is divided into modules . After development of each module testing is performed.
+
+Agile : both dev and testing is performed parallely.
+srum methodology : scrum is the process in agile.To adopt agile methodology there are few framworks.
+scrum is one of those framework.
+Every two weeks we have a release(called sprint)
+test cases are called user stories. these user stories are given to dev and tester.
+
+scrum is the management framework/protocol/process for incremental product development
+there are 3 roles in scrum method of agile software development .
+product owner,scrum master(monitor progress) and team
+
+sprint planning meeting : product owner decides which req need to pick from product backlog
+
+daily scrum : 15min meeting in a day. All will come to a place and discuss about the progress.
+like what task he performed on that day and what he is going to perform tomorrow
+
+sprint review meeting : after dev and tester has done their jobs,they will give demo to the higher officials
+like product owner.May be happens at the end of the sprint or every day
+
+sprint retrospective meeting : review their work,process,any changes to made in that sprint.
+what we learnt,how we need to focus in next sprint,drawbacks.
+
+Backlog refinement meeting : product owner sits with dev and decides what req to develop first and what
+next.
+------------------------------------------------------------------------
+
+
+
+
+
+
+
+
